@@ -115,6 +115,8 @@ print(f"Szeretem {szoveg} tejet")
 
 szam = 5
 print("Szeretem " + str(szam) + " tejet")
+print("Szeretem", szam, "tejet")
+print(f"Szeretem {szam} tejet")
 
 # prompt: if else
 # ! aritmetikai muveletek: +, -, *, /
@@ -156,7 +158,7 @@ elif szam1 > szam2:
 else:
     print(f"A {szam2} nagyobb mint a {szam1}")
 
-szoveg1 = input("Adj meg egy szoveget: \n")
+szoveg1 = input("Adj meg egy szovegte: \n")
 szoveg2 = input("Adj meg egy szoveget: \n")
 
 if szoveg1.lower() == szoveg2.lower():
