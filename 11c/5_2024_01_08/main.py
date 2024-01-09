@@ -114,3 +114,12 @@ while i <= terjedelem:
     eredmeny = szam * i
     print(f"{szam} * {i} = {eredmeny}")
     i += 1
+
+# Task 5
+# prompt: kerjunk be egy szamot es irjuk ki attol a szamtol 0ig a 3mal oszthato szamokat
+szam = int(input("Adj meg egy szamot: \n"))
+i = szam
+while i >= 0:
+    if i % 3 == 0:
+        print(i)
+    i -= 1
