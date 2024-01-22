@@ -6,7 +6,7 @@
 # Kérjünk be egy számot, amíg az kisebb mint 10, majd írjuk ki, hogy a szám nagyobb mint 10.
 szam = int(input("Adj meg egy számot: "))
 while szam < 10:
-    print("A szám kisebb mint 10")
+    print(f"A {szam} kisebb mint 10")
     szam = int(input("Adj meg egy másik számot: "))
 print("A szám nagyobb mint 10")
 
@@ -76,7 +76,11 @@ lista.pop(0)
 print(lista)
 lista.clear()
 print(lista)
-lista.extend([1, 2, 3, 4, 5])
+seged = 1
+while seged < 6:
+    lista.append(seged)
+    seged += 1
+print(lista)
 print(lista.index(3))
 print(lista.count(3))
 lista = [5, 3, 4, 1, 2]
@@ -111,7 +115,7 @@ lista.sort()
 print(lista[-1])
 
 # Task 3
-# Kerjunk be egy szamot amit kitorlunk a listabol, majd irjuk ki a lista elemeit.
+# Kerjunk be egy szamot amit kitorlunk a listabol, majd irjuk ki a listat.
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(lista)
 szam = int(input("Adj meg egy számot: "))
