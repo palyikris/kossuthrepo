@@ -39,7 +39,7 @@ print("Masodik feladat")
 szoveg = "NagYBetUk"
 szoveg = "KIsBEtuK"
 # def: szamold meg, hogy hany nagybetu van a szoban, es ird ki ezt a szamot, illetve
-# def: gyujtsd ki a nagybetuket egy listaba es azt is ird ki
+# def: gyujtsd ki a nagybetuket egy list  aba es azt is ird ki
 i = 0
 nagybetuk = []
 nagybetukszama = 0
