@@ -193,10 +193,9 @@ def is_anagram(s1, s2):
     s2 = s2.lower().strip()
     if len(s1) != len(s2):
         return False
-    for c in s1:
-        if s1.count(c) != s2.count(c):
-            return False
-    return True
+    s1 = sorted(s1)
+    s2 = sorted(s2)
+    return s1 == s2
 
 
 input1 = input("Első szó: ")
